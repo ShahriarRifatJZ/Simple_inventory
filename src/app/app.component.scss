@@ -1,0 +1,42 @@
+img{
+    width: 100%;
+  }
+  
+  .toolbar {
+  background: #fcfbfb; 
+  color: #0d0000; 
+  margin-top: -2px;
+  font-size: large;
+  
+
+  span {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .navText{
+    color: #030303;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+    margin-right: 510px;
+  }
+
+  button {
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+    margin-right: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+      background-color: black; 
+      color: whitesmoke;
+    }
+  }
+
+  button.router-link-active {
+    background-color: #333; 
+  }
+}
